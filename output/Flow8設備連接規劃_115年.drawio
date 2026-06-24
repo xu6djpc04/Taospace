@@ -1,0 +1,109 @@
+<mxfile host="Electron">
+  <diagram name="Flow8-設備連接規劃" id="flow8-setup-diagram">
+    <mxGraphModel dx="1576" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;設備連接規劃 — Behringer Flow 8&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="1120" x="40" y="18" as="geometry" />
+        </mxCell>
+        <mxCell id="zone_src" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;訊號源（輸入）&lt;/font&gt;" vertex="1">
+          <mxGeometry height="520" width="280" x="40" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="zone_core" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#82b366;verticalAlign=top;fontStyle=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;混音器&lt;/font&gt;" vertex="1">
+          <mxGeometry height="520" width="230" x="550" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="zone_out" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#d6b656;verticalAlign=top;fontStyle=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;輸出（擴聲）&lt;/font&gt;" vertex="1">
+          <mxGeometry height="520" width="220" x="940" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mic_act" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="① Mipro ACT-589&#xa;無線麥克風接收機&#xa;XLR 輸出 × 2" vertex="1">
+          <mxGeometry height="100" width="260" x="50" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mic_ma" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="② Mipro MA-300D&#xa;攜帶式擴音機&#xa;3.5mm 輸出" vertex="1">
+          <mxGeometry height="60" width="260" x="50" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="pc1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" value="③ 講桌電腦&#xa;3.5mm 立體聲輸出" vertex="1">
+          <mxGeometry height="60" width="260" x="50" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="pc2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" value="④ 音控電腦&#xa;3.5mm 立體聲輸出（位置較遠）" vertex="1">
+          <mxGeometry height="60" width="260" x="50" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" value="Behringer Flow 8&lt;br&gt;&lt;br&gt;CH 1　← XLR（ACT-589 L）&lt;br&gt;CH 2　← XLR（ACT-589 R）&lt;br&gt;CH 3　← 6.3mm（MA-300D）&lt;br&gt;CH 5/6　← 2TS（講桌電腦）&lt;br&gt;CH 7/8　← 2TS（音控電腦）&lt;br&gt;&lt;br&gt;MON 1/2 輸出：6.3mm TS" vertex="1">
+          <mxGeometry height="310" width="210" x="560" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="amp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;" value="現場卡拉 OK 擴大機&#xa;⚠ 輸入孔僅有 RCA（L / R）" vertex="1">
+          <mxGeometry height="80" width="200" x="950" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="spk_l" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="喇叭 L" vertex="1">
+          <mxGeometry height="70" width="120" x="990" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="spk_r" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="喇叭 R" vertex="1">
+          <mxGeometry height="70" width="120" x="990" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="e_act1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=block;fontSize=12;fontStyle=1;" target="flow8" value="XLR → CH1">
+          <mxGeometry relative="1" x="0.0312" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="310" y="160" />
+              <mxPoint x="440" y="160" />
+              <mxPoint x="440" y="200" />
+            </Array>
+            <mxPoint x="310" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_act2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=block;fontSize=12;fontStyle=1;" target="flow8" value="XLR → CH2">
+          <mxGeometry relative="1" x="-0.2238" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="400" y="200" />
+              <mxPoint x="400" y="240" />
+            </Array>
+            <mxPoint x="310" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_ma" edge="1" parent="1" source="mic_ma" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=block;fontSize=12;" target="flow8" value="3.5 → 6.3 → CH3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="280" />
+              <mxPoint x="435" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pc1" edge="1" parent="1" source="pc1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=block;fontSize=12;" target="flow8" value="3.5 → 2TS → CH5/6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="360" />
+              <mxPoint x="500" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pc2" edge="1" parent="1" source="pc2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=block;fontSize=12;" target="flow8" value="20m 3.5→3.5 ＋ 母3.5→2TS → CH7/8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="440" />
+              <mxPoint x="435" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_mon_amp" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;strokeWidth=2;endArrow=block;fontSize=11;fontStyle=1;" target="amp" value="MON 1/2（6.3mm TS）&#xa;→ RCA × 2（⑥ 需準備）">
+          <mxGeometry relative="1" x="0.037" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="770" y="320" />
+            </Array>
+            <mxPoint x="770" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_spkl" edge="1" parent="1" source="amp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;strokeWidth=2;endArrow=block;" target="spk_l" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_spkr" edge="1" parent="1" source="amp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;strokeWidth=2;endArrow=block;" target="spk_r" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="text;html=1;align=left;verticalAlign=top;fillColor=#f8f8f8;strokeColor=#cccccc;spacingLeft=10;spacingTop=8;fontSize=12;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;線材清單&lt;/b&gt;&lt;br&gt;① XLR 訊號線（平衡）× 2　✅已有　→　ACT-589 → Flow 8 CH1、CH2（用 5m 或 1m 依現場距離）&lt;br&gt;② 3.5mm 公→6.3mm 公 TRS×1　✅已有（注意：若 MA-300D 為立體聲輸出，可能相消；先試，異常再換 TRS→TS）　→　MA-300D → CH3&lt;br&gt;③ 3.5mm 公→雙 6.3mm TS Y 線×1　✅已有（現場備一條，自備備用一條）　→　講桌電腦 → CH5/6&lt;br&gt;④ 3.5mm 公對公長線（約 20m）×1　✅已有　→　音控電腦訊號延伸&lt;br&gt;⑤ 母 3.5mm→雙 6.3mm TS Y 轉接×1　✅已有　→　長線末端 → CH7/8&lt;br&gt;⑥ 6.3mm TS 公→RCA 公 訊號線×2　❌需準備　→　MON 1/2 → 擴大機 RCA L/R&lt;/font&gt;" vertex="1">
+          <mxGeometry height="150" width="1120" x="40" y="610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

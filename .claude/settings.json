@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\Users\\kevin\\Desktop\\Taospace\\output\\fix_typeless.ps1\")",
+      "PowerShell(powershell -NonInteractive -File \"C:\\Users\\kevin\\Desktop\\Taospace\\scripts\\auto_commit.ps1\")"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NonInteractive -File \"C:\\Users\\kevin\\Desktop\\Taospace\\scripts\\auto_commit.ps1\""
+          }
+        ]
+      }
+    ]
+  }
+}

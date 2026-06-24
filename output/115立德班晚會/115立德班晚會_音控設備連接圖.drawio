@@ -1,0 +1,173 @@
+<mxfile host="Electron">
+  <diagram name="115立德班晚會-音控連接圖" id="wing-stage-diagram">
+    <mxGraphModel dx="1212" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;115年立德班晚會 — 音控設備連接圖&lt;/font&gt;" vertex="1">
+          <mxGeometry height="28" width="1170" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zone_src" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#6c8ebf;verticalAlign=top;fontStyle=1;fontSize=13;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;訊號源&lt;/font&gt;" vertex="1">
+          <mxGeometry height="560" width="270" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zone_core" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#82b366;verticalAlign=top;fontStyle=1;fontSize=13;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;數位箱 / 控台&lt;/font&gt;" vertex="1">
+          <mxGeometry height="560" width="470" x="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zone_out" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#d6b656;verticalAlign=top;fontStyle=1;fontSize=13;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;輸出（擴聲・監聽・錄影）&lt;/font&gt;" vertex="1">
+          <mxGeometry height="560" width="390" x="810" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mic_hh" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="無線手持麥 ×4&#xa;主唱A／主唱B／記者／旁白" vertex="1">
+          <mxGeometry height="50" width="230" x="50" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mic_wired" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f2f2f2;strokeColor=#999999;" value="有線麥 ×4（備用／機動）" vertex="1">
+          <mxGeometry height="40" width="230" x="50" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mic_es" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4d6;strokeColor=#d79b00;" value="無線耳掛麥 ×6&#xa;學長/學姐/學弟/機器人 ＋2(待定)" vertex="1">
+          <mxGeometry height="50" width="230" x="50" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="band" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="樂團樂器&#xa;小提琴・木箱鼓（收音麥）&#xa;電子琴・電吉他（DI）" vertex="1">
+          <mxGeometry height="60" width="230" x="50" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="laptop" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="音控室電腦 ×2&#xa;電腦 A → MUSIC-01&#xa;電腦 B → MUSIC-02&#xa;（不走 HDMI）" vertex="1">
+          <mxGeometry height="80" width="230" x="50" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="sd16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#bbbbbb;fontColor=#999999;fontStyle=1;dashed=1;" value="SD16（AES50 A）CH9-20&#xa;本場不接" vertex="1">
+          <mxGeometry height="60" width="180" x="330" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="box2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;dashed=1;" value="第二台 SD16（AES50 B）&#xa;CH21-30 = B1-B10（共10軌）&#xa;6 耳掛 ＋ 4 樂器&#xa;★軌位待重排" vertex="1">
+          <mxGeometry height="80" width="180" x="330" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="wing" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;" value="Behringer WING&#xa;數位混音控台&#xa;本機 8 in（CH1-8）&#xa;AES50 A／B" vertex="1">
+          <mxGeometry height="240" width="140" x="640" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="main_l" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="主動主喇叭 L" vertex="1">
+          <mxGeometry height="46" width="110" x="940" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="main_r" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="主動主喇叭 R" vertex="1">
+          <mxGeometry height="46" width="110" x="1065" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="sub" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="主動重低音 Subwoofer" vertex="1">
+          <mxGeometry height="40" width="235" x="940" y="238" as="geometry" />
+        </mxCell>
+        <mxCell id="mon" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="舞台監聽喇叭 ×4（主動・同一監聽混音）" vertex="1">
+          <mxGeometry height="40" width="235" x="940" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="zones" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="觀眾席分區 ZONE 2／3／4（M2-M4）" vertex="1">
+          <mxGeometry height="40" width="235" x="940" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="rec" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="錄音：WING REC（內錄）" vertex="1">
+          <mxGeometry height="50" width="235" x="940" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="text;html=1;align=left;verticalAlign=top;fillColor=#f8f8f8;strokeColor=#cccccc;spacingLeft=8;spacingTop=6;fontSize=11;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;圖例：　━━ 類比（XLR/TRS）　┅┅ AES50（雙向）　＝＝ USB／AUX&lt;br&gt;CH1-4 本機 無線手持 ｜ CH5-8 本機 有線麥(備用) ｜ CH9-20 SD16(AES50 A,本場不接) ｜ CH21-30 第二台SD16(AES50 B)=B1-B10：6耳掛+4樂器(軌位待重排)&amp;nbsp;&lt;br&gt;AUX返送：A1 ZOOM(不啟用) / A2 MUSIC-01(電腦A)・A3 MUSIC-02(電腦B)(不走HDMI) / A5-6 SD16立體聲　｜　群組：MIC GUP・PGM GUP・LIVE MAIN&lt;br&gt;輸出：M1 MAIN SPK・M2-4 觀眾席分區ZONE2-4；MX1 主擴・MX2 STAGE M(監聽×4)・MX3 For ZOOM(不啟用)；錄音用 WING REC&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="1170" x="30" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="e_hh" edge="1" parent="1" source="mic_hh" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6c8ebf;endArrow=block;fontSize=10;" target="wing" value="Local CH1-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="135" />
+              <mxPoint x="580" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_wired" edge="1" parent="1" source="mic_wired" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#999999;endArrow=block;fontSize=10;" target="wing" value="Local CH5-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="220" />
+              <mxPoint x="580" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_es" edge="1" parent="1" source="mic_es" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d79b00;endArrow=block;fontSize=10;" target="box2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="305" />
+              <mxPoint x="305" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_band" edge="1" parent="1" source="band" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6C8EBF;endArrow=block;fontSize=10;" target="box2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="400" />
+              <mxPoint x="305" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_laptop" edge="1" parent="1" source="laptop" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#82b366;endArrow=block;fontSize=10;" target="wing" value="AUX（MUSIC/HDMI）">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_aesA" edge="1" parent="1" source="sd16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#BBBBBB;startArrow=block;endArrow=block;fontSize=10;fontStyle=1;" target="wing" value="AES50 A（雙向）">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="280" />
+              <mxPoint x="540" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_aesB" edge="1" parent="1" source="box2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#d79b00;startArrow=block;endArrow=block;fontSize=10;fontStyle=1;" target="wing" value="AES50 B（雙向）">
+          <mxGeometry relative="1" x="0.0588" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="580" y="360" />
+              <mxPoint x="580" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_l" edge="1" parent="1" source="wing" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;endArrow=block;fontSize=10;" target="main_l" value="MX1 MAIN SPK">
+          <mxGeometry relative="1" x="0.4536" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="840" y="200" />
+              <mxPoint x="840" y="177" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_r" edge="1" parent="1" source="wing" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;endArrow=block;fontSize=10;" target="main_r" value="MX1 MAIN SPK">
+          <mxGeometry relative="1" x="-0.2818" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="840" y="200" />
+              <mxPoint x="840" y="220" />
+              <mxPoint x="1100" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_sub" edge="1" parent="1" source="wing" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;endArrow=block;fontSize=10;" target="sub" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="240" />
+              <mxPoint x="850" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_mon" edge="1" parent="1" source="wing" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;endArrow=block;fontSize=10;" target="mon" value="MX2 STAGE M ×4">
+          <mxGeometry relative="1" x="-0.2727" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="920" y="280" />
+              <mxPoint x="920" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_zones" edge="1" parent="1" source="wing" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#999999;endArrow=block;fontSize=10;dashed=1;" target="zones" value="M2-M4">
+          <mxGeometry relative="1" x="-0.5385" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="900" y="320" />
+              <mxPoint x="900" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_rec" edge="1" parent="1" source="wing" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#9673a6;endArrow=block;fontSize=10;" target="rec" value="REC">
+          <mxGeometry relative="1" x="-0.6066" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="880" y="360" />
+              <mxPoint x="880" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
